@@ -28,7 +28,7 @@ jobs:
       # pass --base for application to work under GitHub pages
       - name: Install and build
         run: |
-          cd Thepeoplepen
+          cd thepeoplepen
           npm install
           npm run build -- --base=/${{ github.event.repository.name }}/
       - name: Publish deployed code 

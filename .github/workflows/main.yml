@@ -35,7 +35,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1.0.7
         with:
           name: published
-          path: dist
+          path: thepeoplepen/dist
       - name: Deploy GitHub Pages site
         uses: actions/deploy-pages@v1.2.3
         with:
